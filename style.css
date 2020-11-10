@@ -14,17 +14,49 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  /* display: flex; */
   
 
 }
 
 ul > li {
  display: inline-block;
- color: rgb(14, 13, 13);
- padding: 6px 16px;
+ padding: 7px 16px;
+ 
 }
+
+
 a{
-  display: ;
+ text-decoration: none ;
+ padding: 7px 16px;
+ color: rgb(0, 0, 0);
+ background-color: rgb(243, 230, 179);
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ border-bottom-left-radius: 8px;
+ border-bottom-right-radius: 8px;
+ 
+
+ 
+}
+a:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+#red{
+  color: red;
+  
+
+}
+#red:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+p{
+  color: rgb(28, 37, 11);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
 }
 
 #container{
