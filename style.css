@@ -11,21 +11,21 @@ body {
 }
 
 ul {
-  /* list-style-type: none; */
+  list-style-type: none;
   margin: 0;
-  padding: 10;
+  padding: 0;
   
 
 }
 
 li {
- display: ;
+ display: inline-block;
  color: rgb(14, 13, 13);
- /* padding: 6px ; */
+ padding: 6px 16px;
 }
-/* a{
+a{
   display: ;
-} */
+}
 
 #container{
      display: flex; 
