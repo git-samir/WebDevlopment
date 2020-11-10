@@ -8,6 +8,7 @@ body {
 
 .main-logo{
   color: dodgerblue;
+  text-align: center ;
 }
 
 ul {
@@ -15,13 +16,18 @@ ul {
   margin: 0;
   padding: 0;
   /* display: flex; */
+  /* justify-content: left; */
   
 
 }
 
+ul > h1{
+
+}
 ul > li {
  display: inline-block;
  padding: 7px 16px;
+ 
  
 }
 
@@ -45,7 +51,7 @@ a:hover{
 
 #red{
   color: red;
-  
+
 
 }
 #red:hover{
